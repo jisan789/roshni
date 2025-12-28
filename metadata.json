@@ -1,0 +1,8 @@
+{
+  "name": "Roshni - Your AI Soulmate",
+  "description": "A deeply personal, romantic, and sensual companion app featuring Roshni, a charming Bangladeshi girl who cares for you with intimacy and love.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
