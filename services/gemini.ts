@@ -45,7 +45,7 @@ export const generateRoshniResponse = async (
   // Always use const ai = new GoogleGenAI({apiKey: process.env.API_KEY});
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   
-  const chatModel = 'gemini-2.5-flash';
+  const chatModel = 'gemini-2.5-pro';
 
   const contents: any[] = history.map(msg => ({
     role: msg.role === 'user' ? 'user' : 'model',
